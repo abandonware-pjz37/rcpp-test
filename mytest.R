@@ -1,3 +1,3 @@
 library('foopack', lib.loc='library')
 
-foo()
+foo_r_function()
