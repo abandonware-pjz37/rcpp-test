@@ -1,5 +1,9 @@
 language:
   - cpp
 
+install:
+  - sudo apt-get -y install r-base
+  - sudo apt-get -y install r-cran-rcpp
+
 script:
   - ./run.sh
