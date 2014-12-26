@@ -3,6 +3,6 @@
 Rcpp::List foo() {
 }
 
-RCPP_MODULE(foo) {
+RCPP_MODULE(foomodule) {
    Rcpp::function("foo", &foo) ;
 }

@@ -1,3 +1,3 @@
 library(Rcpp)
 
-loadModule("foo", TRUE)
+loadModule("foomodule", TRUE)
