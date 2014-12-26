@@ -1,6 +1,7 @@
 #include <Rcpp.h>
 
 Rcpp::List foo_cpp_function() {
+  return Rcpp::List(0);
 }
 
 RCPP_MODULE(foomodule) {
