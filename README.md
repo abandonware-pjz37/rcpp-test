@@ -1,5 +1,13 @@
 ### Rcpp usage example
 
+| Linux                             | Mac                               |
+|-----------------------------------|-----------------------------------|
+| [![Build Status][linux]][master]  | [![Build Status][macosx]][master] |
+
+[macosx]: https://travis-ci.org/forexample/rcpp-test.svg?branch=travis-macosx
+[linux]: https://travis-ci.org/forexample/rcpp-test.svg?branch=master
+[master]: https://travis-ci.org/forexample/rcpp-test
+
 #### Ubuntu
 
 * Installing dependencies
