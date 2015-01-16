@@ -14,3 +14,4 @@ cmake -H. -B_builds \
 cmake --build _builds --target install --config Release
 
 cp _install/lib/foopack.so src/ || echo "Failed: foopack.so -> src"
+cp _install/lib/foopack.dylib src/foopack.so || echo "Failed: foopack.dylib -> src"
