@@ -1,0 +1,19 @@
+set -x
+set -e
+
+where cmake
+
+rm -rf _builds
+
+cmake -H. -B_builds \
+    -DCMAKE_VERBOSE_MAKEFILE=ON \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=_install \
+    -DCMAKE_SHARED_LIBRARY_PREFIX_CXX=""
+
+cmake --build _builds --target install --config Release
+
+cp _install/lib/foopack.so src/ || echo "Failed: foopack.so -> src"
+cp _install/lib/foopack.dylib src/foopack.so || echo "Failed: foopack.dylib -> src"
+cp _install/lib/foopack.dll src/foopack.so || echo "Failed: foopack.dll -> src"
+cp _install/lib/foopack.dll src/ || echo "Failed: foopack.dll -> src"

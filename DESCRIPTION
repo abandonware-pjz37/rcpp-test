@@ -8,5 +8,3 @@ Maintainer: John Doe <jonhdoe@example.com>
 Description: More about what it does (maybe more than one line)
 License: TBD
 Packaged: 2014-01-01 00:00:00 UTC;
-LinkingTo: Rcpp
-Depends: Rcpp
