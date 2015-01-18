@@ -8,6 +8,8 @@
 [linux]: https://travis-ci.org/forexample/rcpp-test.svg?branch=master
 [master]: https://travis-ci.org/forexample/rcpp-test
 
+*Visual Studio without Rcpp (Windows): https://github.com/forexample/rcpp-test/tree/msvc*
+
 #### Ubuntu
 
 * Installing dependencies
